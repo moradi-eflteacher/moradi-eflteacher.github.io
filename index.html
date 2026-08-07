@@ -463,6 +463,33 @@ border-color:#ffd54f;
     box-shadow:0 5px 15px rgba(0,0,0,.08);
     font-size:18px;
 }
+  .language-columns{
+display:flex;
+gap:30px;
+justify-content:space-between;
+}
+
+.english-box,
+.persian-box{
+width:50%;
+}
+
+.persian-box{
+text-align:right;
+}
+
+@media(max-width:700px){
+
+.language-columns{
+flex-direction:column;
+}
+
+.english-box,
+.persian-box{
+width:100%;
+}
+
+}
 </style>
 
 </head>
